@@ -3,41 +3,25 @@
 <head>
 	<title>Island treasure</title>
 	<style type="text/css">
-		#map{
+		#stage{
 			background-image: url("images/map.png");
 			width: 455px;
 			height: 455px;
 			position: relative;
 		}
-		.pieces{
+		.cell{
 			width: 70px;
 			height: 70px;
 			position: absolute;
 		}
-		#pirate{
-			background-image: url("images/pirate.png");
-			top: 5px;
-			left: 0px;
-		}
-		#island{
-			background-image: url("images/island.png");
-			top: 150px;
-			left: 80px;
-		}
-		#home{
-			background-image: url("images/home.png");
-			top: 5px;
-			left: 155px;
-		}
+		
 
 	</style>
 </head>
 <body>
-	<div id="map">
-		<div id="pirate" class="pieces"> </div>
-		<div id="island" class="pieces"></div>
-		<div id="home" class="pieces"></div>
-	</div>
+	<div id="stage"></div>
 
+
+	<script src="game.js"></script>
 </body>
 </html>
